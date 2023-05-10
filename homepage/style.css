@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+article {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  grid-template-columns: 1.5fr 1fr;
+  margin-left: 3rem;
+}
+
+.nav-left {
+  height: 60rem;
+  background-image: url(images/desktop-image-hero-3.jpg);
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  /* align-items: center;
+  justify-content: space-between; */
+  gap: 2rem;
+  margin: 4rem;
+}
+
+nav img {
+  width: 15%;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 4rem;
+}
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+nav a:hover {
+  transition: all 0.5s ease-in;
+  color: hsl(0, 1%, 55%);
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7rem;
+  gap: 3rem;
+}
+
+.information h1 {
+  font-size: 4.4rem;
+  color: hsl(0, 0%, 0%);
+}
+
+.information p {
+  font-size: 1.6rem;
+  color: hsl(0, 0%, 63%);
+  line-height: 1.4;
+}
+
+.shoping {
+  color: hsl(0, 0%, 0%);
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons ion-icon {
+  margin-top: 4rem;
+  cursor: pointer;
+  padding: 1rem;
+  height: 45px;
+  width: 50px;
+  color: #fff;
+  background-color: hsl(0, 0%, 0%);
+}
+
+.buttons ion-icon:hover {
+  transition: all 0.7s ease-in;
+  background-color: hsl(0, 84%, 88%);
+}
+
+.boxes {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 3rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 7rem;
+  gap: 2rem;
+}
+
+.info h3 {
+  font-size: 3.6rem;
+  color: hsl(0, 0%, 0%);
+}
+
+.info p {
+  font-size: 1.4rem;
+  color: hsl(0, 0%, 63%);
+  line-height: 1.4;
+}
+
+.transition {
+  transition: all 0.5s ease-in;
+  transform: scale(1);
+}
